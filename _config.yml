@@ -47,8 +47,10 @@ highlight_theme: default
 
 # Nav settings
 # ---------------
-#social:
+#social:                  #社交图标
   #icon_name: url
+social:
+  github: https://github.com/caitb
 
 # Algolia search
 # ---------------
