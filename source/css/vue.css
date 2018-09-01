@@ -786,7 +786,8 @@ section.cover blockquote > p > a:hover {
     border-left: 4px solid var(--theme-color, #42b983);
     color: #858585;
     margin: 2em 0;
-    padding-left: 20px
+    padding-left: 20px;
+    background-color: rgba(66, 185, 131, .1);
 }
 
 .markdown-section blockquote p {
@@ -805,7 +806,7 @@ section.cover blockquote > p > a:hover {
 }
 
 .markdown-section pre code {
-    color: rgb(152, 26, 26);
+    color: rgb(25, 24, 24);
 }
 
 .markdown-section code {
