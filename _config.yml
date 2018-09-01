@@ -53,16 +53,23 @@ highlight_theme: default
 # Algolia search
 # ---------------
 algolia_search:
-  enable: false
+  enable: false # or false
   hits:
-    per_page: 10
+    per_page: 10 # the number of search results per page
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
+    hits_stats: "${hits} results found in ${time} ms"
 
 
 # Local search
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/third-party-support?id=local-search
 # ---------------
 local_search:
-  enable: false
+  enable: true # or false
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
 
 # MathJax
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/third-party-support?id=mathjax
@@ -74,7 +81,7 @@ mathjax:
 
 # Toggle fireworks (IE >= 10)
 # ---------------
-fireworks: false
+fireworks: true
 
 # Analysis
 # ---------------
