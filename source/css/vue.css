@@ -790,7 +790,7 @@ section.cover blockquote > p > a:hover {
 
 .markdown-section code {
     border-radius: 2px;
-    color: #e96900;
+    color: rgb(152, 26, 26);
     font-size: .8rem;
     margin: 0 2px;
     padding: 3px 5px;
@@ -899,7 +899,7 @@ section.cover blockquote > p > a:hover {
     -webkit-font-smoothing: initial;
     background-color: #f8f8f8;
     border-radius: 2px;
-    color: #525252;
+    /*color: #525252;*/
     display: block;
     font-family: Roboto Mono, Monaco, courier, monospace;
     font-size: .8rem;
