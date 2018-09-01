@@ -1,4 +1,4 @@
-#sidebar
+#sidebar.sidebar
   - const showToc = is_post() && theme.toc.enable
   -
     let tocNumber
@@ -8,7 +8,8 @@
   -
   if(showToc)
     .toggle-sidebar-info.text-center
-      span(data-toggle= _p('sidebar.toggle_article'))= _p('sidebar.toggle_site')
+      span(data-toggle= _p('s' +
+          'idebar.toggle_article'))= _p('sidebar.toggle_site')
       hr
     .sidebar-toc
       div.sidebar-toc__title= _p('sidebar.catalog')
@@ -17,7 +18,7 @@
         span.progress-num 0
         span.progress-percentage %
         div.sidebar-toc__progress-bar
-      div.sidebar-toc__content!=toc(page.content, {list_number: tocNumber})
+      div.sidebar-nav.sidebar-toc__content!=toc(page.content, {list_number: tocNumber})
   .author-info(class= showToc ? 'hide' : undefined)
     .author-info__avatar.text-center
       img(src=theme.avatar || url_for('/img/avatar.png'))

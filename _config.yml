@@ -86,6 +86,7 @@ google_analytics:
 # ---------------
 stylesheets:
 - /css/index.css
+- /css/vue.css
 
 # scripts loaded in the end of the body
 # ---------------

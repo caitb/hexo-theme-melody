@@ -37,7 +37,7 @@ block top_img
       include ./includes/header.pug
 
 block content
-  article#post(class="")
+  article.markdown-section#post(class="")
     if (!top_img)
       #post-title.plain= page.title || _p('no_title')
       #post-meta
