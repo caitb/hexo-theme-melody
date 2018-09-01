@@ -94,7 +94,7 @@ google_analytics:
 stylesheets:
 - /css/index.css
 - /css/vue.css
-- /css/_highlight/prism.css
+#- /css/_highlight/prism.css
 
 # scripts loaded in the end of the body
 # ---------------
@@ -123,7 +123,7 @@ cdn:
 
 # Post info settings
 # ---------------
-avatar: 
+avatar: /img/caitb.png
 
 top_img: /img/xingkong.jpeg # false or url of img
 
@@ -173,7 +173,10 @@ slide:
 
 # adv:
   # enable: false
-  # info: 
+  # info:
+adv:
+  enable: false
+  info: <a href="https://www.vultr.com/?ref=7231808"><img src="https://www.vultr.com/media/banner_1.png" width="728" height="90"></a>
 
 # Share System
 # ---------------

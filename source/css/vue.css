@@ -955,3 +955,11 @@ pre:after {
     text-align: right;
     top: 0
 }
+
+strong > u {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+}
