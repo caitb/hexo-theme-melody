@@ -785,7 +785,9 @@ section.cover blockquote > p > a:hover {
 }
 
 .markdown-section em {
-    color: #7f8c8d
+    background: #f9f2f4;
+    font-size: 13px;
+    color: #c7254e;
 }
 
 .markdown-section pre code {
