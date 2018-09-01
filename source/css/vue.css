@@ -788,9 +788,13 @@ section.cover blockquote > p > a:hover {
     color: #7f8c8d
 }
 
+.markdown-section pre code {
+    color: rgb(152, 26, 26);
+}
+
 .markdown-section code {
     border-radius: 2px;
-    color: rgb(152, 26, 26);
+    color: rgb(243, 138, 93);
     font-size: .8rem;
     margin: 0 2px;
     padding: 3px 5px;
