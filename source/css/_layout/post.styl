@@ -1,5 +1,6 @@
 headStyle(fontsize)
   //padding-left: unit(fontsize + 0.1, "rem")
+  font-size: unit(fontsize, "rem")
 
   &:before
     top: calc(50% - unit(fontsize / 2 - 0.05, "rem"))
@@ -142,22 +143,22 @@ headStyle(fontsize)
         color: $light-blue
 
   h1
-    headStyle(1)
+    headStyle(2.2)
 
   h2
-    headStyle(0.9)
+    headStyle(1.75)
 
   h3
-    headStyle(0.8)
+    headStyle(1.4)
 
   h4
-    headStyle(0.7)
+    headStyle(1.2)
 
   h5
-    headStyle(0.6)
+    headStyle(1)
 
   h6
-    headStyle(0.6)
+    headStyle(0.8)
 
 #post-content
   margin-bottom: 1rem

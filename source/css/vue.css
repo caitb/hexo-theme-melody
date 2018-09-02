@@ -77,7 +77,7 @@ body {
     -webkit-font-smoothing: antialiased;
     color: #34495e;
     font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0;
     margin: 0;
     overflow-x: hidden
@@ -773,7 +773,7 @@ section.cover blockquote > p > a:hover {
 }
 
 .markdown-section ol, .markdown-section p, .markdown-section ul {
-    line-height: 1.6rem;
+    line-height: 26px;
     word-spacing: .05rem
 }
 
