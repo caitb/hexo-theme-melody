@@ -344,6 +344,11 @@ a[disabled] {
     opacity: .6
 }
 
+u {
+    text-decoration: none;
+    border-bottom: #49b1f5 dotted 2px;
+}
+
 kbd {
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -1062,11 +1067,12 @@ section.cover blockquote > p > a:hover {
     margin: 1em 0
 }
 
-.markdown-section em {
-    background: #f9f2f4;
-    font-size: 13px;
-    color: #c7254e;
-}
+/*.markdown-section em {*/
+    /*background: #f9f2f4;*/
+    /*font-size: 13px;*/
+    /*color: #c7254e;*/
+/*}*/
+
 
 .markdown-section pre code {
     color: rgb(25, 24, 24);
