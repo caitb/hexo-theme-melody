@@ -12,7 +12,7 @@ $(function () {
         $(ctx).prev('.copy-notice')
           .text(GLOBAL_CONFIG.copy.success)
           .velocity({
-            translateX: -30,
+            translateX: -50,
             opacity: 1
           }, {
             loop: 1,
@@ -23,7 +23,7 @@ $(function () {
         $(ctx).prev('.copy-notice')
           .text(GLOBAL_CONFIG.copy.error)
           .velocity({
-            translateX: -30,
+            translateX: -50,
             opacity: 1
           }, {
             loop: 1,
