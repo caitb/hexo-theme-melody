@@ -109,7 +109,7 @@ scripts:
 - /js/transition.js
 - /js/scroll.js
 - /js/head.js
-- /js/prism.js
+#- /js/prism.js
 
 # cdn for third-party library
 # ---------------
