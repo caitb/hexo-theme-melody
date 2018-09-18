@@ -7,10 +7,11 @@ headStyle(fontsize)
     font-size: unit(fontsize, "rem")
 
   &:hover
-    padding-left: unit(fontsize + 0.2, "rem")
+    padding-left: unit(fontsize / 5, "rem")
 
 #post-title
   font-size: 1.4rem
+  line-height: 2
 
   &.plain
     margin-bottom: 0.3rem
@@ -26,6 +27,7 @@ headStyle(fontsize)
   overflow: hidden
 
   &-meta
+    line-height: 1.6
     text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.15)
 
   #post-meta

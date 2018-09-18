@@ -495,7 +495,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "TimesNewRomanPS-ItalicMT", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
     -webkit-font-smoothing: initial;
     font-weight: 300;
-    color: var(--text-color);
+    color: var(--text-color, #34495e);
     line-height: 1.35;
     font-variant-numeric: lining-nums;
     margin-bottom: .2em;
@@ -522,6 +522,19 @@ h4 a[target="_blank"],
 h5 a[target="_blank"],
 h6 a[target="_blank"] {
     color: #34495e
+}
+
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+    margin: 0.5em 0 0.7em;
+    font-family: "Pacifico", cursive;
+    color: #11a9af;
+    font-weight: 500;
+    text-shadow: 0.4vw 0.4vw #dcfbfc;
 }
 
 .anchor:hover {
@@ -664,11 +677,11 @@ body.sticky .sidebar, body.sticky .sidebar-toggle {
     margin-top: 0 !important
 }
 
-.markdown-section hr {
-    border: none;
-    border-bottom: 1px solid #eee;
-    margin: 2em 0
-}
+/*.markdown-section hr {*/
+    /*border: none;*/
+    /*border-bottom: 1px solid #eee;*/
+    /*margin: 2em 0*/
+/*}*/
 
 .markdown-section iframe {
     border: 1px solid #eee
@@ -1051,10 +1064,10 @@ section.cover blockquote > p > a:hover {
 }
 
 .markdown-section blockquote {
+    margin: 0;
+    padding: 1px 0px 1px 15px;
     border-left: 4px solid var(--theme-color, #42b983);
-    color: #858585;
-    margin: 2em 0;
-    padding-left: 20px;
+    color: #777;
     background-color: rgba(66, 185, 131, .1);
 }
 
