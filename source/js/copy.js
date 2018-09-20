@@ -47,4 +47,10 @@ $(function () {
     copy(text, this)
     selection.removeAllRanges()
   })
+    
+  $('#post figure').mouseover(function () {
+      $(this).children('i').show();
+  }).mouseout(function () {
+      $(this).children('i').hide();
+  })
 })

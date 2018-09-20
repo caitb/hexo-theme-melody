@@ -494,7 +494,7 @@ main.hidden {
 h1, h2, h3, h4, h5, h6 {
     font-family: "TimesNewRomanPS-ItalicMT", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
     -webkit-font-smoothing: initial;
-    font-weight: 300;
+    font-weight: 500;
     color: var(--text-color, #34495e);
     line-height: 1.35;
     font-variant-numeric: lining-nums;
@@ -1072,7 +1072,7 @@ section.cover blockquote > p > a:hover {
 }
 
 .markdown-section blockquote p {
-    font-weight: 600;
+    /*font-weight: 600;*/
     margin-left: 0
 }
 
