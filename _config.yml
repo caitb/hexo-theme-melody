@@ -125,9 +125,9 @@ cdn:
 
 # Post info settings
 # ---------------
-avatar: /img/caitb.png
+avatar: https://ws2.sinaimg.cn/large/006tNbRwgy1fvak7x33btj30500500ui.jpg
 
-top_img: /img/xingkong.jpeg # false or url of img
+top_img: https://ws1.sinaimg.cn/large/006tNbRwgy1fvak4ulv7nj31hc0xc0yl.jpg # false or url of img
 
 post_meta:
   date_type: created # created or updated 
