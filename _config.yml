@@ -119,6 +119,7 @@ cdn:
   js:
     anime: /js/third-party/anime.min.js
     jquery: /js/third-party/jquery.min.js
+    jquery-easing: /js/third-party/jquery.easing.1.3.js
     fancybox: /js/third-party/jquery.fancybox.min.js
     velocity: /js/third-party/velocity.min.js 
     velocity-ui: /js/third-party/velocity.ui.min.js
