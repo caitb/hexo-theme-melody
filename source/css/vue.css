@@ -677,11 +677,15 @@ body.sticky .sidebar, body.sticky .sidebar-toggle {
     margin-top: 0 !important
 }
 
-/*.markdown-section hr {*/
-    /*border: none;*/
-    /*border-bottom: 1px solid #eee;*/
-    /*margin: 2em 0*/
-/*}*/
+.markdown-section hr {
+    border: none;
+    border-bottom: 1px solid #eee;
+    margin: 2em 0
+}
+
+.markdown-section hr:before {
+    content: ''
+}
 
 .markdown-section iframe {
     border: 1px solid #eee
