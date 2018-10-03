@@ -42,11 +42,18 @@ html(lang=config.language)
       include ./nav.pug
     #content-outer.content
       block top_img
-      #content-inner.layout
-        if body
-          div!= body
-        else
-          block content
+      if is_home()
+        #content-inner.layout.content-wrap
+          if body
+            div!= body
+          else
+            block content
+      else
+        #content-inner.layout
+          if body
+            div!= body
+          else
+            block content
     footer
       include ./footer.pug
     i.fa.fa-arrow-up#go-up(aria-hidden="true")

@@ -658,7 +658,8 @@ body.sticky .sidebar, body.sticky .sidebar-toggle {
     right: 0;
     bottom: 0;
     left: 300px;
-    transition: left .25s ease
+    transition: left .25s ease;
+    word-break: break-all;
 }
 
 .markdown-section {
@@ -1248,4 +1249,121 @@ strong > u {
     display: block;
     font-weight: normal;
     font-size: 12px;
+}
+
+.content-wrap {
+    float: none;
+    margin-left: 195px;
+    width: auto;
+    padding-top: 25px;
+    padding-bottom: 1px;
+}
+
+.content-wrap .wrap {
+    float: none;
+    width: auto;
+    max-width: 520px;
+    margin-right: 300px;
+    margin-left: 90px;
+    margin-bottom: 0;
+}
+
+.content-wrap .wrap .home-style {
+    position: relative;
+    float: none;
+    margin: 0 0 30px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+    width: 100%;
+    font-size: 1em;
+}
+
+h2.entry-title {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-size: 1.333333333333333em;
+    line-height: 1.5em;
+    height: 1.5em;
+    overflow: hidden;
+    border: none;
+    color: green;
+    word-spacing: 2px;
+    word-wrap: break-word;
+    font-size: 1.4em!important;
+    padding-bottom: 5px !important;
+}
+
+h2.entry-title a {
+    color: #0da4d3;
+    font-family: 'Microsoft Yahei',Arial, Helvetica,sans-serif;
+}
+
+.post-metas {
+    margin-bottom: 15px;
+    height: 18px;
+    line-height: 20px;
+    color: #bbb;
+    font-size: 12px;
+}
+
+.article-meta__separator {
+    margin-left: 0.3rem;
+}
+
+.article-meta i {
+    margin: 0 0.2rem 0 0.3rem;
+}
+
+.list-thumb {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.list-thumb .thumbnail {
+    height: 0;
+    padding-bottom: 28.847%;
+}
+
+a.thumbnail {
+    display: block;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-thumb .thumbnail img {
+    display: none;
+}
+
+.hentry img {
+    width: 100%;
+    height: auto;
+}
+
+a img {
+    -webkit-transition: all 0.18s ease-out;
+    -moz-transition: all 0.18s ease-out;
+    -ms-transition: all 0.18s ease-out;
+    -o-transition: all 0.18s ease-out;
+    transition: all 0.18s ease-out;
+}
+
+.read-more {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    color: #fff;
+    background: #0da4d3;
+    padding: 6px 8px;
+    font-size: 0.9166666666666667em;
+    display: none;
+    background-color: #0da4d3;
+}
+
+.entry-summary {
+    font-size: 13px;
+    line-height: 1.9;
+    color: #585858;
 }
